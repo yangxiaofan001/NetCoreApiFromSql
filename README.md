@@ -10,7 +10,7 @@
     - if the database has many tables an views, use "includeTables" or "excludeTables"
         - if "includeTables" is not empty, then "excludeTables" is ignored
         - if both "includeTables" and "excludeTables", all tables in the database will be processed
-    
+```
   "apiProject" : {
     "templateFolder" : "/Volumes/macintosh-HD/git/NetCoreApiFromSql/CreateWebApiProj/ApiProjectTemplate",
     "apiProjectName": "BookStoreApi",
@@ -23,6 +23,7 @@
     },
     "packageVersions": [ ...]   // skipped here. see the appSettings.json file in the CreateWebApiProj project
   }
+```
 
 ### From existing sql server database tables, generate asp.net core (3.1) apis
     - dbContext class
